@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8451792B1EF6B1F800922FA4 /* SmachTwittersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8451792A1EF6B1F800922FA4 /* SmachTwittersTableViewController.swift */; };
+		8451792D1EF6B65000922FA4 /* FetchedResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8451792C1EF6B65000922FA4 /* FetchedResultsTableViewController.swift */; };
 		8453965B1EF585B30064D8D8 /* Smash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845396591EF585B30064D8D8 /* Smash.xcdatamodeld */; };
 		8453965D1EF587D50064D8D8 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453965C1EF587D50064D8D8 /* Tweet.swift */; };
 		8453965F1EF587FC0064D8D8 /* TwitterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453965E1EF587FC0064D8D8 /* TwitterUser.swift */; };
 		845396611EF5895D0064D8D8 /* SmashTweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845396601EF5895D0064D8D8 /* SmashTweetTableViewController.swift */; };
+		84FB430F1EF6C171007F457E /* UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB430E1EF6C171007F457E /* UITableViewDataSource.swift */; };
 		EA2269DA1E7AD4AC008B27A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2269D91E7AD4AC008B27A8 /* AppDelegate.swift */; };
 		EA2269DF1E7AD4AC008B27A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2269DD1E7AD4AC008B27A8 /* Main.storyboard */; };
 		EA2269E11E7AD4AC008B27A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2269E01E7AD4AC008B27A8 /* Assets.xcassets */; };
@@ -36,10 +39,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8451792A1EF6B1F800922FA4 /* SmachTwittersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmachTwittersTableViewController.swift; sourceTree = "<group>"; };
+		8451792C1EF6B65000922FA4 /* FetchedResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedResultsTableViewController.swift; sourceTree = "<group>"; };
 		8453965A1EF585B30064D8D8 /* Smash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smash.xcdatamodel; sourceTree = "<group>"; };
 		8453965C1EF587D50064D8D8 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		8453965E1EF587FC0064D8D8 /* TwitterUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterUser.swift; sourceTree = "<group>"; };
 		845396601EF5895D0064D8D8 /* SmashTweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmashTweetTableViewController.swift; sourceTree = "<group>"; };
+		84FB430E1EF6C171007F457E /* UITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewDataSource.swift; sourceTree = "<group>"; };
 		EA2269D61E7AD4AC008B27A8 /* Smashtag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smashtag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2269D91E7AD4AC008B27A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA2269DE1E7AD4AC008B27A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,9 +89,12 @@
 		EA2269D81E7AD4AC008B27A8 /* Smashtag */ = {
 			isa = PBXGroup;
 			children = (
+				8451792A1EF6B1F800922FA4 /* SmachTwittersTableViewController.swift */,
 				EA2269DD1E7AD4AC008B27A8 /* Main.storyboard */,
 				845396591EF585B30064D8D8 /* Smash.xcdatamodeld */,
+				8451792C1EF6B65000922FA4 /* FetchedResultsTableViewController.swift */,
 				8453965C1EF587D50064D8D8 /* Tweet.swift */,
+				84FB430E1EF6C171007F457E /* UITableViewDataSource.swift */,
 				8453965E1EF587FC0064D8D8 /* TwitterUser.swift */,
 				EA2269EC1E7AD4FA008B27A8 /* TweetTableViewController.swift */,
 				845396601EF5895D0064D8D8 /* SmashTweetTableViewController.swift */,
@@ -139,7 +148,7 @@
 				TargetAttributes = {
 					EA2269D51E7AD4AC008B27A8 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = X5SVCNCD2D;
+						DevelopmentTeam = FWHF624C4H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -181,8 +190,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				845396611EF5895D0064D8D8 /* SmashTweetTableViewController.swift in Sources */,
+				8451792D1EF6B65000922FA4 /* FetchedResultsTableViewController.swift in Sources */,
 				EA2269DA1E7AD4AC008B27A8 /* AppDelegate.swift in Sources */,
+				8451792B1EF6B1F800922FA4 /* SmachTwittersTableViewController.swift in Sources */,
 				8453965D1EF587D50064D8D8 /* Tweet.swift in Sources */,
+				84FB430F1EF6C171007F457E /* UITableViewDataSource.swift in Sources */,
 				8453965F1EF587FC0064D8D8 /* TwitterUser.swift in Sources */,
 				EA2269ED1E7AD4FA008B27A8 /* TweetTableViewController.swift in Sources */,
 				EA2269F31E7B035A008B27A8 /* TweetTableViewCell.swift in Sources */,
@@ -309,10 +321,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X5SVCNCD2D;
+				DEVELOPMENT_TEAM = FWHF624C4H;
 				INFOPLIST_FILE = Smashtag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DeimanTechnology.Smashtag;
+				PRODUCT_BUNDLE_IDENTIFIER = Smashtag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -322,10 +334,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X5SVCNCD2D;
+				DEVELOPMENT_TEAM = FWHF624C4H;
 				INFOPLIST_FILE = Smashtag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DeimanTechnology.Smashtag;
+				PRODUCT_BUNDLE_IDENTIFIER = Smashtag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
